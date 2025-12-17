@@ -1,4 +1,4 @@
-def clean_data(df):
+def clean_data_percapita(df):
     # Filtrar filas en función de las columnas: 'GENERO', 'TRAMO'
     # df = df[(df['GENERO'].str.contains("HOMBRE", regex=False, na=False, case=False)) & (df['TRAMO'].str.contains("A", regex=False, na=False, case=False))]
     # Seleccionar columnas: 'RUT', 'FECHA_NACIMIENTO' y 4 otras columnas
